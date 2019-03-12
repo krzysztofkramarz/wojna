@@ -1,9 +1,12 @@
 package cards;
 
+import lombok.Getter;
+
 /**
  * @author krzysztof.kramarz
  */
-public enum CartColor
+@Getter
+enum CartColor
 {
    CLUB("♣"),
    DIAMOND("♦"),
